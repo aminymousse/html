@@ -3,20 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Page</title>
+    <title>My Basic HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .highlight {
+            background-color: #ffffcc;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Hello, World!</h1>
+        <h1>Welcome to My HTML Page</h1>
     </header>
 
-    <section>
-        <p>This is a simple HTML page created with the help of ChatGPT. Feel free to modify and enhance it!</p>
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>This is a paragraph of text in Section 1.</p>
+        <p class="highlight">This paragraph has a special highlight.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>This is a paragraph of text in Section 2.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3</h2>
+        <p>This is a paragraph of text in Section 3.</p>
     </section>
 
     <footer>
-        <p>Created by Your Name</p>
+        <p>&copy; 2024 My Basic HTML Page. All rights reserved.</p>
     </footer>
 
 </body>
